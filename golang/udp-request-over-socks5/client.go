@@ -13,7 +13,7 @@ func main() {
 	proxyAddr := "127.0.0.1:1080"  // SOCKS5 proxy address
 	proxyUser := "your_username"   // Replace with your username
 	proxyPass := "your_password"   // Replace with your password
-	targetAddr := "127.0.0.1:9999" // UDP target server (replace with actual UDP server)
+	targetAddr := "127.0.0.1:8080" // UDP target server (replace with actual UDP server)
 
 	// Establish TCP connection to SOCKS5 proxy
 	tcpConn, err := net.Dial("tcp", proxyAddr)
